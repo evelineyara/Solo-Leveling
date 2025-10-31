@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, black, rgb(40, 0, 105));
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+a {
+    text-decoration: none;
+    color: darkorchid;
+}
+
