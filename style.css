@@ -5,3 +5,44 @@
 :root {
     --fontepadrao:"Quicksand", sans-serif;
 }
+
+* {
+    font-family: var(--fontepadrao);
+}
+
+nav {
+    text-align: center;
+    word-spacing: 15px;
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(46, 46, 46);
+    transition-duration: 0.4s;
+}
+
+main {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin: 30px;
+}
+
+body {
+    background: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
