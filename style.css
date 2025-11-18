@@ -50,11 +50,12 @@ main a:hover {
 img {
     max-width: 100%;
     border-radius: 20px;
-    box-shadow: rgba(163, 53, 77, 0.253) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(163, 53, 77, 0.219) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 23px;
+    padding-top: 20px;
 }
 
 div {
