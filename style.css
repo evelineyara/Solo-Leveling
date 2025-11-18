@@ -50,7 +50,7 @@ main a:hover {
 img {
     max-width: 100%;
     border-radius: 20px;
-    box-shadow: rgba(163, 53, 77, 0.219) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(163, 53, 77, 0.164) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 h2 {
@@ -59,12 +59,32 @@ h2 {
 }
 
 div {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 iframe {
     max-width: 95%;
     border-radius: 20px;
+}
+
+div p {
+    text-align: center;
+    padding-bottom: 55px;
+    font-weight: bold;
+    font-size: 14.5px;
+}
+
+div p a {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+div p a:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 0.5s;
 }
 
 body {
@@ -75,7 +95,7 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 footer a {
